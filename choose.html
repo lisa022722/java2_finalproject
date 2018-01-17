@@ -4,59 +4,45 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="login.css">
 	<meta charset="UTF-8">
-	<title>Elective</title>
+	<title>Index</title>
 </head>
 <body>
 	<div class="wrap">
 		<div class="header">
-			<p class="electivetitle">我的課程一覽表</p>
-			<HR  style="border:1px dashed #00DD77">
+			<p class="choosetitle">代選清單</p>
+			<HR color="#00DD77" size="1"> 
 		</div>
 
 		<div class="body">
 		
-			<br/>
+
+
+			<button class="stu_button">待選數量</button>
 			<button class="stu_button">查詢課程</button>
 			<button class="stu_button">加選課程</button>
 			<button class="stu_button">個人資料</button>
-			<br/>
 
 
-			<div class="elective">
-				<div class="subtitle">選課</div>
-				<div class="course_num">課程編號
-				<select class="num">
-					<option>01</option>
-					<option>02</option>
-					<option>03</option>
-					<option>04</option>
-					<option>05</option>
-				</select>
-			</div>
-			</div>
-
-
-
-
+			<p class="listin">已加入代選清單的課程</p>
+			
 			<table class="course_con">
 	　			<tr>
 	　				<td class="title_info">課程編號</td>
-					<td class="title_info">上課時間</td>
+					<td class="title_info">課程名稱</td>
+					<td class="title_info">上課節次</td>
 					<td class="title_info">上課教室</td>
-					<td class="title_info">退選</td>
-
 				</tr>
 				<tr>
 					<td class="intro">01</td>
-					<td class="intro">Sat 9:00~12:00</td>
+					<td class="intro">Java2</td>
+					<td class="intro">2~4</td>
 					<td class="intro">L-108</td>
-					<td class="intro">Nope</td>
 				</tr>
 				<tr>
 					<td class="intro">內容</td>
 					<td class="intro">內容</td>
 					<td class="intro">內容</td>
-					<td class="intro">內容</td>
+					<td class="intro">內容</td>				
 				</tr>
 				<tr>
 					<td class="intro">內容</td>
@@ -125,11 +111,11 @@
 					<td class="intro">內容</td>
 				</tr>
 			</table>	
-		
-		
-			<button class="electivebutton">返回</button>	
-			<button class="del_button">登出</button>
-			
+
+
+			<br/>
+			<button class="indexbutton">登出</button>
+
 		</div>
 
 		<div class="footer">

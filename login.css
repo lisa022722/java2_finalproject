@@ -94,6 +94,15 @@ html, body{
 	padding-right: 800px;
 }
 
+.choosetitle{
+	font-size: 40px;
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF ;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-right: 800px;
+}
+
 
 
 .body{
@@ -294,13 +303,14 @@ html, body{
 }
 
 .elective{
+	margin-right: 600px;
 	margin-top: 20px;
 }
 
 .subtitle{
 	font-size: 25px;
 	font-family: "Malgun Gothic";
-	color: #FFFFFF ;
+	color: #FFFF77; 
 	margin-top: 60px;
 	margin-right: 170px;
 }
@@ -309,7 +319,7 @@ html, body{
 .course_num{
 	font-size: 25px;
 	font-family: "Malgun Gothic";
-	color: #FFFFFF ;
+	color: #FFFF77;
 	margin-top: 30px;
 }
 
@@ -323,7 +333,7 @@ html, body{
 	width: 90%;
 	margin:0 auto;
 	border: 5px double #FFFFBB;
-	margin-top: 50px;
+	margin-top: 15px;
 
 }
 .title_info{
@@ -354,6 +364,13 @@ html, body{
 	padding: 10px;
 }
 
+.listin{
+	font-size: 20px;
+	font-family: "Microsoft Yahei";
+	color: #FFFF77 ;
+	margin-right: 750px;
+	margin-top: 30px;
+}
 
 
 
@@ -419,6 +436,13 @@ html, body{
 　	position: relative;
 　	margin-top: -200px;
 
+}
+
+.word{
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	font-style: italic;
+	color:#FFA488;
 }
 
 
