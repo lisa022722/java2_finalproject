@@ -1,0 +1,456 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #003C9D;
+      height: 100%;
+}
+
+.wrap{
+	width: 100%;
+	/*border: 1px solid black;*/
+	margin:0 auto;
+	background-color: #003C9D;
+	position: relative;
+}
+
+.header{
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin:0 auto;
+	text-align: center;
+}
+
+.title{
+	font-size: 80px;
+	font-family: "MS PGothic";
+	color: #FFFFFF ;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.coursetitle{
+	font-size: 40px;
+	font-family: "Malgun Gothic";
+	color: #FFFFFF ;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-right: 750px;
+}
+
+.electivetitle{
+	font-size: 40px;
+	font-family: "Malgun Gothic";
+	color: #FFFFFF ;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-right: 800px;
+}
+
+.choosetitle{
+	font-size: 40px;
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF ;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-right: 800px;
+}
+
+
+
+.body{
+	height: 100%;
+	width: 90%;
+	/*border: 2px solid black;*/
+	margin:0 auto;
+	text-align: center;
+
+	padding-bottom: 200px;
+}
+
+.system{
+	font-size: 25px;
+	font-family: "Microsoft YaHei";
+	font-style: bold;
+	color: #FFFFFF ;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.accountbox{
+	width: 60%;
+	/*border: 1px solid black;*/
+	margin:0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.account{
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF ;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.password{
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF ;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.box{
+	width: 20%;
+	height: 20px;
+}
+
+.loginbox{
+	width: 60%;
+	/*border: 1px solid black;*/
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+.button{
+	height: 40px;
+	width: 15%;
+	margin:0 auto;
+	font-family: "Microsoft YaHei";
+	font-size: 20px;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 25px;
+    margin-right: -20px;
+}
+
+.classmate{
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+	color: #FFA488 ;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.indexbutton{
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	color: #444444 ;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+
+.pwerror{
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+	color: 	#FF5511 ;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.back{
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+	margin-bottom: 50px;
+	font-style: italic;
+	color: 	#DDDDDD ;
+}
+
+.stu_pic{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width:15%;
+}
+
+.content{
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF ;
+	margin-bottom:  20px;
+}
+
+.inputbox{
+	width: 20%;
+	height: 20px;
+}
+
+.change{
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+	border-radius: 2px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	padding: 5px;
+}
+
+
+.success{
+	font-size: 50px;
+	font-family: "Microsoft YaHei";
+	color: 	#FF5511 ;
+	margin: 0 auto;
+	margin-bottom:  20px;
+	padding-left: 100px;
+}
+
+
+.course_con{
+	width: 90%;
+	margin:0 auto;
+	border: 5px double #FFFFBB;
+
+}
+.title_info{
+	/*margin: 0 auto;*/
+	font-size: 20px;
+	font-style: bold;
+	font-family: "Meiryo";
+	color: #FFFFFF ;
+	border: 2px solid #FFFFBB;
+	padding: 7px;
+}
+
+.intro{
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: "Meiryo";
+	color: #FFFFFF ;
+	border: 2px solid #FFFFBB;
+	padding: 10px;
+}
+
+.course_intro{
+	width: 90%;
+	margin: 0 auto;
+	border-top: 2px dashed #FFCCCC;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.course_con2{
+	width: 90%;
+	margin:0 auto;
+	border: 5px double #FFFFBB;
+	margin-top: 50px;
+
+}
+
+.intro_con{
+	border: 2px solid #FFFFBB;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: "Meiryo";
+	color: #FFFFFF ;
+	padding: 10px;
+}
+
+.coursebutton{
+	width: 10%;
+	height: 40px;
+	border-radius: 3px;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+}
+
+.elective{
+	margin-right: 600px;
+	margin-top: 20px;
+}
+
+.subtitle{
+	font-size: 25px;
+	font-family: "Malgun Gothic";
+	color: #FFFF77; 
+	margin-top: 60px;
+	margin-right: 170px;
+}
+
+
+.course_num{
+	font-size: 25px;
+	font-family: "Malgun Gothic";
+	color: #FFFF77;
+	margin-top: 30px;
+}
+
+.num{
+	width: 100px;
+	height: 25px;
+	margin-left: 10px;
+}
+
+.course_con{
+	width: 90%;
+	margin:0 auto;
+	border: 5px double #FFFFBB;
+	margin-top: 15px;
+
+}
+.title_info{
+	margin: 0 auto;
+	font-size: 20px;
+	font-style: bold;
+	font-family: "Meiryo";
+	color: #FFFFFF ;
+	border: 2px solid #FFFFBB;
+	padding: 7px;
+}
+
+.intro{
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: "Meiryo";
+	color: #FFFFFF ;
+	border: 2px solid #FFFFBB;
+	padding: 10px;
+}
+
+.info{
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: "Meiryo";
+	color: #FFFFFF ;
+	border: 2px solid #FFFFBB;
+	padding: 10px;
+}
+
+.listin{
+	font-size: 20px;
+	font-family: "Microsoft Yahei";
+	color: #FFFF77 ;
+	margin-right: 750px;
+	margin-top: 30px;
+}
+
+
+
+.electivebutton{
+	width: 10%;
+	height: 40px;
+	margin-top: 50px;
+	border-radius: 3px;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+}
+
+.del_button{
+	width: 10%;
+	height: 40px;
+	margin-top: 50px;
+	border-radius: 3px;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+}
+
+.courselist_button{
+	width: 10%;
+	height: 40px;
+	margin-top: 50px;
+	border-radius: 3px;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+}
+
+.directbutton{
+	width: 10%;
+	height: 30px;
+	margin-top: 50px;
+	margin-left: 20px;
+	border-radius: 3px;
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+}
+
+.stu_button{
+	width: 10%;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 3px;
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+}
+
+.stu_button a{
+	text-decoration: none;
+}
+
+
+.footer{
+	width: 90%;
+	font-size: 15px;
+	font-weight: bold;
+	color:#000000;
+	font-family: "Microsoft YaHei";
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;
+	margin-top: -200px;
+}
+
+.word{
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	font-style: italic;
+	color:#FFA488;
+}
+
+
+
+
+.copyright{
+	vertical-align:bottom
+}

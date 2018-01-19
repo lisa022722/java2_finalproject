@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/jsp/add_to_cart_result.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/choose.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/course.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/course_content.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/course_list.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/delete_result.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/elective.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/index.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/login.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/login_error.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/student.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/student_result.jsp=UTF-8
+encoding//src/java2_2018_final/controller/MainServlet.java=UTF-8
+encoding/<project>=MS950
