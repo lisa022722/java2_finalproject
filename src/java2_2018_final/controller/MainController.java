@@ -325,8 +325,11 @@ public class MainController {
     
     @RequestMapping("/course_content")
 	@Transactional
-	public String showCourseContent(@RequestParam(value="c_id", defaultValue="") String c_id, Model model) throws SQLException, JSONException {
-		Course thisCourse = courseDao.get(c_id);
+	public String showCourseContent(@RequestParam(value="c_id", defaultValue="") String c_id, Model model, HttpSession session) throws SQLException, JSONException {
+    	if(session.getAttribute("s_id") == null)
+			return "redirect:login";
+    	
+    	Course thisCourse = courseDao.get(c_id);
 		model.addAttribute("course", thisCourse);
     	return "course_content";
 	}
@@ -375,6 +378,9 @@ public class MainController {
 	@RequestMapping("/course")
 	@Transactional
 	public String showCourse(Model model, HttpSession session) throws SQLException, JSONException {
+		if(session.getAttribute("s_id") == null)
+			return "redirect:login";
+		
 		List<Course> courses = courseDao.getAllCourses();
 		System.out.println(courses.get(0).getC_score());
 		List<String> classSessions;

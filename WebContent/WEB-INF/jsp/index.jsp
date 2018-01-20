@@ -9,7 +9,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="UTF-8">
-	<title>Index</title>
+	<title>BIOS選課系統</title>
 </head>
 <body>
 	<div class="wrap">

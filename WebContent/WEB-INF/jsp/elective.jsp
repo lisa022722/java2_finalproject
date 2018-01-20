@@ -9,7 +9,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="UTF-8">
-	<title>Elective</title>
+	<title>加選課程 - BIOS選課系統</title>
 </head>
 <body>
 	<div class="wrap">
@@ -77,7 +77,7 @@
 			</table>	
 		
 		
-			<button class="electivebutton">返回</button>	
+			<button class="electivebutton"><a href = "javascript:history.back()">返回</a></button>	
 			<button class="del_button"><a href="logout">登出</a></button>
 			
 		</div>

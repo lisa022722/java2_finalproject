@@ -9,12 +9,12 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="UTF-8">
-	<title>Index</title>
+	<title>收藏清單 - BIOS選課系統</title>
 </head>
 <body>
 	<div class="wrap">
 		<div class="header">
-			<p class="choosetitle">代選清單</p>
+			<p class="choosetitle">收藏清單</p>
 			<HR color="#00DD77" size="1"> 
 		</div>
 
@@ -27,7 +27,7 @@
 			<button class="stu_button"><a href="student">個人資料</a></button>
 
 
-			<p class="listin">已加入代選清單的課程</p>
+			<p class="listin">已加入收藏清單的課程</p>
 
 
 			<table class="course_con">
@@ -41,7 +41,7 @@
 				<c:forEach var="course" items="${myCartCourses}" varStatus="status">
 					<tr>
 						<td class="intro">${course.c_id}</td>
-						<td class="intro">${course.c_name}</td>
+						<td class="intro"><a href = "course_content?c_id=${course.c_id}">${course.c_name}</a></td>
 						<td class="intro">${myCartCourseSessions[status.index]}</td>
 						<td class="intro">${course.c_class}</td>
 						<td class="intro"><a href = "deleteFromCart?c_id=${course.c_id}">移除</a></td>

@@ -78,11 +78,21 @@ html, body{
 
 .info a{
 	color: #FFFFFF;
-	text-decoration: none;
 }
 
 .intro a{
 	color: #FFFFFF;
+}
+
+.del_button a{
+	text-decoration: none;
+}
+
+.indexbutton a{
+	text-decoration: none;
+}
+
+.electivebutton a{
 	text-decoration: none;
 }
 

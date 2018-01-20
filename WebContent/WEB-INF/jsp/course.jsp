@@ -9,7 +9,7 @@
 	<meta charset="UTF-8">
 	<link type="text/css" rel="stylesheet" href="<c:url value='/css/style.css'/>"> 
 	<meta charset="UTF-8">
-	<title>Course</title>
+	<title>課程查詢 - BIOS選課系統</title>
 </head>
 <body>
 	<div class="wrap">
@@ -47,7 +47,7 @@
 					<td class="title_info">教師</td>
 					<td class="title_info">上課教室</td>
 					<td class="title_info">上課時間</td>
-					<td class="title_info">先修、限修</td>
+					<td class="title_info">必修/選修</td>
 	　			</tr>
 	
 			

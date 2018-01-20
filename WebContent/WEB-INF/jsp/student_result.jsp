@@ -9,7 +9,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="UTF-8">
-	<title>Student_result</title>
+	<title>學生資料修改 - BIOS選課系統</title>
 </head>
 <body>
 	<div class="wrap">

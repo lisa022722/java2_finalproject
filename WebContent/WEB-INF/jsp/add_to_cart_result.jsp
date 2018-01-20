@@ -7,8 +7,8 @@
 	成功加入待選清單！
 </c:if>
 <c:if test = "${result == 'repeated'}">
-	重複加入囉！
+	你已經加入過這堂課囉！
 </c:if>
 <c:if test = "${result == 'failed'}">
-	加入待選清單失敗！
+	加入收藏清單失敗！
 </c:if>

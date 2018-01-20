@@ -10,7 +10,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="UTF-8">
-	<title>Course_content</title>
+	<title>${course.c_name} - BIOS選課系統</title>
 </head>
 <body>
 	<div class="wrap">
@@ -87,7 +87,7 @@
 				</div>
 				
 				<button class="coursebutton"><a href="studentlist?c_id=${course.c_id}">當前修課名單</a></button>
-				<button class="coursebutton">返回</button>	
+				<button class="coursebutton"><a href = "javascript:history.back()">返回</a></button>	
 				<button class="del_button"><a href="login">登出</a></button>
 			
 		</div>

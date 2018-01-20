@@ -11,7 +11,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="UTF-8">
-	<title>Course_list</title>
+	<title>修課名單 - BIOS選課系統</title>
 </head>
 <body>
 	<div class="wrap">
